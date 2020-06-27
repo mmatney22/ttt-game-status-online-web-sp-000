@@ -47,4 +47,5 @@ end
 #winner method
 def winner(board)
 #is the game won? and what is the token?
+won?(board)
 end
