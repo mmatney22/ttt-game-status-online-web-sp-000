@@ -46,8 +46,5 @@ end
 
 #winner method
 def winner(board)
-#is the game won? and what is the token?
-  if won?(board)
-    board[won?(board)[0]]
-  end
+  won?(board) && board[won?(board)[0]]
 end
